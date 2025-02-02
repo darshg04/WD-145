@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part - B</title>
+    <style>
+        *{
+           margin:0%;
+            padding:0%;
+            box-sizing:border box;
+        }
+        
+        html,body{
+            height:100%;
+            width:100%;
+        }
+        
+        #container1{
+            height: 90%;
+            width: 100%;
+            background-image: url("download.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #navigationbar{
+            border: 3px solid red;
+            height: 15%;
+            width: 100%;
+            display: flex;
+        }
+
+        #logo img{
+            height: 60px;
+            width: 60px;
+            margin: 10px;
+        }
+
+        #header{
+            color: white;
+            display: flex;
+            margin-left:20%;
+            margin-top: 5px;
+
+        }
+
+        .nav{
+            margin: 25px;
+        }
+
+        #searchbar{
+            margin-left: 16%;
+            margin-top: 25px;
+            display: flex;
+        }
+
+        #text{
+            border-radius: 15px;
+            height: 30px;
+            width: 150px;
+            background-color: white;
+        }
+
+        #searchbutton{
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            background-color: blue;
+            margin-left: 8px;
+        }
+
+        #main{
+            height: 85%;
+            width: 100%;
+            border: 3px solid red;
+        }
+
+        #paragraph{
+            height: 70%;
+            width: 30%;
+            border: 3px solid yellow;
+            margin: 50px 0px 0px 70px;
+            color: white;
+            
+        }
+
+        #proflie{
+            margin-top: 80px;
+        }
+
+        #proflie h1{
+            font-size: 400%;
+        }
+
+        #proflie p{
+            font-size: 100%;
+        }
+
+        .button{
+            border-radius: 15px;
+            margin: 40px 0px 0px 0px;
+            padding: ;
+            height: 30px;
+            width: 100px;
+            background-color: white;
+            color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0px 15px 0px 15px;
+            text-align: center;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div id="container1">
+        <div id="navigationbar">
+            <div id="logo">
+                <img src="./developer image.png" alt="">
+            </div>
+            <div id="header">
+               <div class="nav">Home</div>
+               <div class="nav">My Intro</div>
+               <div class="nav">Services</div>
+               <div class="nav">Pages</div>
+               <div class="nav">Contant</div>
+            </div>
+            <div id="searchbar">
+                <div id="text"></div>
+                <div id="searchbutton"></div>
+            </div>
+        </div>
+        <div id="main">
+            <div id="paragraph">
+                <div id="proflie">
+                <h2>Hi, I'm Darshan Gohel</h2>
+                <h1>Designer</h1>
+                <p>I love to do UI/UX designing, I always try to make good UI design with the best UX</p>
+                </div>
+                <div class="button">Hire Me</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
