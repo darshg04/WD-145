@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #cc9f9f;
+        }
+
+        .animated-box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: moveAndChange 3s infinite;
+        }
+
+        @keyframes moveAndChange {
+            0% {
+                transform: translateX(0) scale(2) rotate(90deg);
+                background-color: red;
+            }
+
+            50% {
+                transform: translateX(300px) scale(3) rotate(180deg);
+                background-color: yellow;
+            }
+
+            75% {
+                transform: translateX(-300px) scale(4) rotate(270deg);
+                background-color: green;
+            }
+
+            100% {
+                transform: translateX(0) rotate(360deg);
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="animated-box"></div>
+</body>
+
+</html>
