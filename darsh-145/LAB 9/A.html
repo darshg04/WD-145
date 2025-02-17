@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .demo{
+            margin: 50px;
+            height: 200px;
+            width: 200px;
+            position: relative;
+            background-color: red;
+            animation-duration: 5s;
+            animation-name: demo;
+            animation-delay: 2s;
+            animation-direction: reverse;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            background-image: url("https://darshan.ac.in/Content/media/DU_Logo.svg");
+        }
+
+        @keyframes demo {
+            0%{
+                top:0px;
+                left: 0px;
+            }
+            25%{
+                top:0px;
+                left: 500px;
+                background-color: yellow;
+            }
+            50%{
+                top:500px;
+                left: 500px;
+                background-color: yellow;
+            }
+            75%{
+                top:500px;
+                left: 0px;
+                background-color: yellow;
+
+            }
+            100%{
+                top:0px;
+                left: 0px;
+                background-color: yellow;
+            }
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="demo">
+
+    </div>
+</body>
+</html>

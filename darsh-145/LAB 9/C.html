@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #cc9f9f;
+        }
+        .main {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(240, 173, 166);
+        }
+        .header {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            animation-name: head;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            background-color: saddlebrown;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        @keyframes head {
+            0% {
+               background: linear-gradient(to bottom,blueviolet,white);
+            }
+            25% {
+                background: linear-gradient(to bottom,green,white);
+                transform: translateY(320px);
+            }
+            50% {
+                background: linear-gradient(to bottom,yellow,white);
+               transform: translateY(-320px);
+            }
+            75% {
+                background: linear-gradient(to bottom,red,white);
+                transform: translateY(-320px);
+            }
+            100% {
+                background: linear-gradient(to bottom,black,white);
+            }  
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+        </div>
+    </div>
+</body>
+</html>
