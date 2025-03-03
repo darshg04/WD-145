@@ -1,0 +1,164 @@
+*{
+    margin:0%;
+     padding:0%;
+     box-sizing:border box;
+ }
+ 
+ html,body{
+    height:100%;
+     width:100%;
+ }
+
+ #header{
+     height: 10%;
+     width: 100%;
+     display: flex;
+ }
+
+ #nav{
+     align-items:center;
+     display: flex;
+ }
+
+ #img1 img{
+     height: 70px;
+     width: 70px;
+ }
+
+ #home{
+     margin-left: 800px;
+ }
+
+ .pages{
+     margin: 30px;
+ }
+
+ #main{
+     height: 80%;
+     width: 100%;
+     display: flex;
+ }
+
+ #container1{
+     height: 100%;
+     width: 30%;
+ }
+
+ #container2{
+     height: 100%;
+     width: 70%;
+ }
+
+ #box1{
+     text-align: center;
+     border: 2px solid black;
+     height: 5%;
+     width: 100%;
+     background-color: red;
+ }
+
+ .box{
+     text-align: center;
+     border: 2px solid black;
+     height: 18%;
+     width: 100%;
+     background-color: red;
+ }
+
+ #box7{
+     border: 2px solid black;
+     height: 5%;
+     width: 100%;
+     background-color: red;
+ }
+ 
+ #part1{
+     margin: 10px;
+     display: flex;
+ }
+
+ #img2 img{
+     height: 100px;
+     width: 100px;
+ }
+
+
+ #img3 img{
+     height: 100px;
+     width: 100px;
+ }
+
+ .images{
+     margin: 5px;
+ }
+
+ #img4 img{
+     height: 100px;
+     width: 100px;
+ }
+
+ #img5 img{
+     height: 100px;
+     width: 100px;
+ }
+
+ #img6 img{
+     height: 100px;
+     width: 100px;
+ }
+
+ #img7 img{
+     height: 100px;
+     width: 100px;
+ }
+
+ #img8 img{
+     height: 100px;
+     width: 100px;
+ }
+
+ #part2{
+     margin: 10px;
+     display: flex;
+ }
+
+ .image{
+     margin: 5px;
+ }
+
+ #footer{
+     height: 10%;
+     width: 100%;
+ }
+
+ #name{
+     background-color: blue;
+     text-align: center;
+ }
+
+ @media screen and (max-width: 480px) {
+    .pages{
+        margin: 10px;
+    }
+    #home{
+        margin-left: 40px;
+    }
+    #main{
+        display: inline;
+    }
+    #container1{
+        margin: 10px 0px 40px 30px;
+        width: 60%;
+    }
+    #container2{
+        margin: 10px 0px 0px 10px;
+        width: 50%;
+    }
+    #part1{
+        margin: 10px 0px 0px 10px;
+    }
+    .images{
+        margin-left: 10px;
+    }
+ }
+ 
