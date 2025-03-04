@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    height: 20vh;
+    background-color: rgb(226, 148, 148);
+    display: flex;
+}
+
+.logo{
+    margin: 30px;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.logo p{
+    margin-top: 10px;
+}
+
+nav{
+    display: flex;
+}   
+
+ul{
+    display: flex;
+}
+
+#Home{
+    margin-left: 600px;
+}
+
+.nav{
+    display: flex;
+    margin: 40px;
+}
+
+main{
+    height: 80vh;
+}
+
+.container1{
+    margin: 10px 30px 10px 20px ;
+    height: 25%;
+    display: flex;
+    border: 1px solid green;
+}
+
+.left{
+    margin: 25px;
+}
+
+.left img{
+    height: 130px;
+    width: 150px;
+}
+
+.right{
+    margin: 30px;
+    margin-left: 100px;
+}
+
+button{
+    background-color: rgb(164, 229, 243);
+    margin-top: 20px;
+    color: black;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+}
+.container2{
+    height: 69.8%;
+    display: flex;
+}
+.part1{
+    width: 60%;
+    margin: 20px 0px 10px 20px;
+}
+
+.part1 :nth-child(2){
+    margin: 20px 0px 10px 0px;
+    font-weight: 900;
+}
+
+.part1 :nth-child(3){
+    margin: 20px 0px 10px 0px;
+}
+
+.part1 ul{
+    margin: 0px 0px 0px 20px;
+}
+
+.part1 :nth-child(6){
+    margin: 20px 0px 10px 0px;
+}
+
+.part2{
+    width: 38%;
+    border: 2px solid red;
+}
+
+
+
+
+
+
