@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Essentials</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
+        }
+        .container {
+            display: flex;
+            max-width: 900px;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .image-section {
+            flex: 1;
+            padding: 20px;
+        }
+        .product-image {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .details-section {
+            flex: 1;
+            padding: 20px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: #555;
+            display: block;
+            margin-bottom: 10px;
+        }
+        h2 {
+            margin: 0 0 10px;
+        }
+        .rating {
+            color: #888;
+        }
+        .options h4 {
+            margin: 10px 0;
+        }
+        .quality, .style, .size {
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            background: white;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+        .quality.active, .style.active, .size.active {
+            background: #000;
+            color: white;
+        }
+        .color-option {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: #ddd;
+            border-radius: 50%;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        .color-option.active {
+            border: 2px solid black;
+        }
+        .purchase-section {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .price {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .add-to-cart {
+            background: #0033cc;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-section">
+            <img src="./College Essentials.jpg" alt="College Essentials" class="product-image">
+        </div>
+        <div class="details-section">
+            <a href="#" class="back-link">&larr; Back to bedroom</a>
+            <h2>College Essentials</h2>
+            <p class="rating"> 4.4 (328 reviews)</p>
+            
+            <div class="options">
+                <h4>Select Quality</h4>
+                <button class="quality active">Basic</button>
+                <button class="quality">Premium</button>
+            </div>
+            
+            <div class="options">
+                <h4>Style</h4>
+                <button class="style">Minimal</button>
+                <button class="style active">Bohemian</button>
+                <button class="style">Floral</button>
+                <button class="style">Other</button>
+            </div>
+            
+            <div class="options">
+                <h4>Color</h4>
+                <span class="color-option active"></span>
+                <span class="color-option"></span>
+                <span class="color-option"></span>
+            </div>
+            
+            <div class="options">
+                <h4>Size</h4>
+                <button class="size active">Twin XL</button>
+                <button class="size">Full</button>
+            </div>
+            
+            <div class="purchase-section">
+                <div class="price">$195</div>
+                <button class="add-to-cart">Add to Cart (3)</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
